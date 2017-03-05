@@ -1,0 +1,109 @@
+﻿body{
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	transition: all .1s ease-in;
+	background: white;
+	width: 100%;
+	margin: 0;
+}
+
+label{
+	display: block;
+	background: #3c3d46;
+	line-height: 3;
+}
+
+input[type="checkbox"]:checked ~ span{
+	text-decoration: line-through;
+	color: #9f98b4;
+}
+
+label:hover{
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+footer{
+	background: #4a4e56;
+}
+
+.container{
+	border: 10px solid #fff;
+	box-sizing: border-box;
+	width: 100%;
+	color: white;
+	background: #3c3d46;
+	height: 100%;
+	position: fixed;
+}
+
+header{
+	background: #4a4e56;
+	color: #df8088;
+	margin-top:0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+header:last-of-type{
+	font-size: 14px;
+}
+
+label:nth-child(odd){
+	background: #7b7594;
+}
+
+label:nth-child(even){
+	background: #8983a0;
+}
+
+label:active{
+	background: yellow;
+}
+
+span.description:after{
+	content: ')';
+}
+
+span.description:before{
+	content: '(';
+}
+
+span.description{
+	font-size: 11px;
+}
+
+span.firstpart{
+	font-size: 14px;
+}
+
+.bottom{
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 18px;
+}
+
+.top{
+	margin:0;
+}
+
+footer p{
+	color: #d57d85;
+}
+
+footer{
+	max-width: 750px;
+	margin:0 auto 20px auto;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+
+main{
+	max-width: 750px;
+	margin:0 auto 20px auto;
+
+}
+/*рамка белая не хочет тоже получаться :(*/
